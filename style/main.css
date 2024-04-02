@@ -1,0 +1,143 @@
+/* -- imports -- */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,800&display=swap");
+
+/* -- global style -- */
+
+* {
+	padding: 0;
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+body {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+/* -- nav style -- */
+
+nav {
+	position: fixed;
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	z-index: 1;
+}
+
+nav h1 {
+	font-size: 23px;
+}
+
+nav h1 span.nav-span {
+	color: rgb(219, 160, 52);
+}
+
+/* -- main style -- */
+
+main {
+	padding-top: 50px;
+	display: flex;
+	flex-direction: column;
+	background-image: url(../assets/wallhaven-x123rl.jpg);
+	background-position: center;
+	background-repeat: none;
+	background-size: cover;
+}
+
+hr {
+	width: 90%;
+	align-self: center;
+	justify-self: center;
+}
+
+/* section 1 */
+
+main div.section1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	height: calc(100vh - 50px);
+}
+
+/* section 2 */
+
+main div.section2 {
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+main div.section2 div.section2_image-area img {
+	height: 500px;
+	transform: scale(0.9);
+	border-radius: 20px;
+}
+
+main div.section2 div.section2_text-area {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+	color: white;
+	width: 400px;
+	padding-left: 200px;
+	justify-content: center;
+	align-items: center;
+}
+
+/* section 3 */
+
+main div.section3 {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+}
+
+main div.section3 p {
+	width: 80%;
+}
+
+main div.section3 div.section3_socials {
+	display: flex;
+	flex-direction: row;
+	gap: 40px;
+	color: white;
+	margin-top: 50px;
+}
+
+main div.section3 div.section3_socials a {
+	color: white;
+	font-size: 40px;
+}
+
+main div.section3 div.section3_socials a:visited {
+	color: white;
+}
+
+main div.section3 div.section3_socials a:hover {
+	color: #444;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer h2 span {
+	color: rgb(219, 160, 52);
+}
